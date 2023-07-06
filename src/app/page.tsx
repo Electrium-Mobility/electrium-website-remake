@@ -1,19 +1,43 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import Script from 'next/script'
+// import '../styles/scss/tailwind.scss'
+// import "../styles/assets/libs/tiny-slider/tiny-slider.css"
+// import "../styles/assets/libs/@iconscout/unicons/css/line.css"
+import "../styles/scss/icons.scss"
+import "../styles/scss/tailwind.scss"
 
 export default function Home() {
   return (
     <>
-  {/* Loader Start */}
-  {/* <div id="preloader">
-      <div id="status">
-          <div class="spinner">
-              <div class="double-bounce1"></div>
-              <div class="double-bounce2"></div>
-          </div>
-      </div>
-  </div> */}
-  {/* Loader End */}
-  {/* Start Navbar */}
+    
+    <>
+  <meta charSet="UTF-8" />
+  <title>Home - Electrium Mobility</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="theme-color" content="#40B549" />
+  <meta name="og:image" content="/assets/logos/favicon.png" />
+  <meta
+    name="description"
+    content="Electrium Mobility is a design team in the Sedra Student Design Center in the University of Waterloo. Our goal is to create personal electric vehicles!"
+  />
+  <meta
+    name="keywords"
+    content="evehicle, sustainability, waterloo, design team, bike, scooter, skateboard, electric"
+  />
+  <meta name="author" content="Shreethemes" />
+  <meta name="version" content="1.7.0" />
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  {/* favicon */}
+  <link rel="shortcut icon" href="assets/logos/favicon.png" sizes="32x32" />
+  
+</>
+
+
+
   <nav id="topnav" className="defaultscroll is-sticky">
     <div className="container">
       {/* Logo container*/}
@@ -24,11 +48,12 @@ export default function Home() {
           alt=""
           width={180}
         />
-        <img
-          src="assets/logos/logo-dark-mode.png"
+        <Image
+          src="/assets/logos/logo-dark-mode.png"
           className="hidden dark:inline-block"
           alt=""
           width={180}
+          height={40}
         />
       </a>
       {/* End Logo container*/}
@@ -901,13 +926,12 @@ export default function Home() {
   </div>
   {/* Switcher */}
   {/* JAVASCRIPTS */}
-  <style
-    type="text/css"
-    dangerouslySetInnerHTML={{
-      __html: ".typewrite > .wrap { border-right: 0.08em solid transparent}"
-    }}
-  />
+  <Script src="/assets/libs/tiny-slider/min/tiny-slider.js"/>
+  <Script src="/assets/libs/feather-icons/feather.min.js"/>
+  <Script src="/assets/js/plugins.init.js"/>
+  <Script src="/assets/js/app.js"/>
   {/* JAVASCRIPTS */}
+  
 </>
 
   )
