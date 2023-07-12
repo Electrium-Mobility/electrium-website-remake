@@ -48,7 +48,7 @@ export default function RootLayout({
     rel="stylesheet"
   />
   <link rel="stylesheet" href="assets/css/icons.css" />
-  <link rel="stylesheet" href="assets/css/tailwind.css" /> */}
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
     </Head><html lang="en">
         <body className={inter.className}>{children}</body>
       </html></>
