@@ -6,6 +6,7 @@ import Script from 'next/script'
 // import "../styles/assets/libs/@iconscout/unicons/css/line.css"
 import "../styles/scss/icons.scss"
 import "../styles/scss/tailwind.scss"
+import "../styles/scss/home.scss"
 
 export default function Home() {
   return (
@@ -60,7 +61,7 @@ export default function Home() {
       <div className="menu-extras">
         <div className="menu-item">
           {/* Mobile menu toggle*/}
-          <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+          <a className="navbar-toggle" id="isToggle" onlick="toggleMenu()">
             <div className="lines">
               <span />
               <span />
