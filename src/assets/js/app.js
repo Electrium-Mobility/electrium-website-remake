@@ -62,7 +62,7 @@ function fn() {
 /*********************/
 /* Toggle Menu */
 /*********************/
-function toggleMenu() {
+export function toggleMenu() {
     document.getElementById("isToggle").classList.toggle("open");
     var isOpen = document.getElementById("navigation");
     if (isOpen.style.display === "block") {
@@ -217,7 +217,7 @@ function scrollFunction() {
     }
 }
 
-function topFunction() {
+export function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
