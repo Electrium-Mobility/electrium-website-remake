@@ -1,5 +1,7 @@
 import '../styles/globals.css'
+import "../styles/scss/icons.scss"
 import '../styles/scss/tailwind.scss'
+import Head from 'next/head'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -15,8 +17,40 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <><Head>
+      <meta charSet="UTF-8" />
+    <title>Home - Electrium Mobility</title>
+  {/* <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="theme-color" content="#40B549" />
+  <meta name="og:image" content="/assets/logos/favicon.png" />
+  <meta
+    name="description"
+    content="Electrium Mobility is a design team in the Sedra Student Design Center in the University of Waterloo. Our goal is to create personal electric vehicles!"
+  />
+  <meta
+    name="keywords"
+    content="evehicle, sustainability, waterloo, design team, bike, scooter, skateboard, electric"
+  />
+  <meta name="author" content="Shreethemes" />
+  <meta name="version" content="1.7.0" />
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  {/* favicon */}
+  <link rel="shortcut icon" href="assets/logos/favicon.png" sizes="32x32" />
+  {/* Css */}
+  <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
+  {/* Main Css */}
+  <link
+    href="assets/libs/@iconscout/unicons/css/line.css"
+    type="text/css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/icons.css" />
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+    </Head><html lang="en">
+        <body className={inter.className}>{children}</body>
+      </html></>
   )
 }
