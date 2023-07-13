@@ -1,3 +1,6 @@
+import { toggleMenu } from '../assets/js/app';
+import { topFunction } from '../assets/js/app';
+
 export default function competitions() {
     return (
         <>
@@ -64,7 +67,7 @@ export default function competitions() {
       <div className="menu-extras">
         <div className="menu-item">
           {/* Mobile menu toggle*/}
-          <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+          <a className="navbar-toggle" id="isToggle" onClick={() => toggleMenu()}>
             <div className="lines">
               <span />
               <span />
@@ -443,7 +446,7 @@ export default function competitions() {
   {/* Back to top */}
   <a
     href="#"
-    onclick="topFunction()"
+    onClick={() => topFunction()}
     id="back-to-top"
     className="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 ltr:right-5 rtl:left-5 h-9 w-9 text-center bg-green-600 text-white leading-9"
   >

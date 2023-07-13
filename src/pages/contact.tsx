@@ -641,6 +641,7 @@ export default function Contact() {
 import Image from 'next/image'
 
 import '../styles/about.scss'
+import { toggleMenu } from '../assets/js/app';
 
 export default function Home() {
     return (
@@ -669,7 +670,7 @@ export default function Home() {
                   <div className="menu-extras">
                     <div className="menu-item">
                       {/* Mobile menu toggle*/}
-                      <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                      <a className="navbar-toggle" id="isToggle" onClick={() => toggleMenu()}>
                         <div className="lines">
                           <span />
                           <span />
@@ -902,7 +903,7 @@ export default function Home() {
                             method="post"
                             name="myForm"
                             id="myForm"
-                            onsubmit="return validateForm()"
+                            onSubmit="validateForm()"
                           >
                             <p className="mb-0" id="error-msg" />
                             <div id="simple-msg" />
