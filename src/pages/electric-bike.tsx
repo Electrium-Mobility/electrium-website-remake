@@ -1,7 +1,7 @@
 import { toggleMenu } from '../assets/js/app';
 import { topFunction } from '../assets/js/app';
 
-export default function electricbike() {
+export function electricbike() {
   return (
     <>
   <meta charSet="UTF-8" />

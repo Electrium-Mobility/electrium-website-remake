@@ -1,7 +1,7 @@
 import { toggleMenu } from '../assets/js/app';
 import { topFunction } from '../assets/js/app';
 
-export default function electricskateboard (){
+export function electricskateboard (){
     return (
         <>
   <meta charSet="UTF-8" />
