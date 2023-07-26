@@ -1,4 +1,7 @@
-
+import Navbar from '../../components/navbar'
+import "../styles/scss/icons.scss"
+import "../styles/scss/tailwind.scss"
+import "../styles/scss/tailwind-css.scss"
 export default function electricskateboard (){
     return (
         <>
