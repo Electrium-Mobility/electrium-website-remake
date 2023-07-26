@@ -1,3 +1,6 @@
+import Script from "next/script"
+import "../styles/scss/tailwind-css.scss"
+
 export default function projects() {
     return (
         <>
@@ -589,6 +592,11 @@ export default function projects() {
   </div>
   {/* Switcher */}
   {/* JAVASCRIPTS */}
+  
+  <Script src="/assets/libs/tiny-slider/min/tiny-slider.js"/>
+  <Script src="/assets/libs/feather-icons/feather.min.js"/>
+  <Script src="/assets/js/plugins.init.js"/>
+  <Script src="/assets/js/app.js"/>
   {/* JAVASCRIPTS */}
 </>
 

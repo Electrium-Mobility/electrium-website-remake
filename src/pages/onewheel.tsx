@@ -1,7 +1,5 @@
-import { toggleMenu } from '../assets/js/app';
-import { topFunction } from '../assets/js/app';
 
-export function onewheel() {
+export default function onewheel() {
     return (
         <>
   <meta charSet="UTF-8" />

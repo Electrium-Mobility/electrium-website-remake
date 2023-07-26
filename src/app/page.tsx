@@ -7,7 +7,8 @@ import Navbar from '../../components/navbar'
 // import "../styles/assets/libs/@iconscout/unicons/css/line.css"
 import "../styles/scss/icons.scss"
 import "../styles/scss/tailwind.scss"
-import "../styles/scss/home.scss"
+import "../styles/scss/tailwind-css.scss"
+
 
 export default function Home() {
   return (
@@ -612,7 +613,7 @@ export default function Home() {
       __html: ".typewrite > .wrap { border-right: 0.08em solid transparent}"
     }}
   />
-   <Script src="/assets/libs/tiny-slider/min/tiny-slider.js"/>
+  <Script src="/assets/libs/tiny-slider/min/tiny-slider.js"/>
   <Script src="/assets/libs/feather-icons/feather.min.js"/>
   <Script src="/assets/js/plugins.init.js"/>
   <Script src="/assets/js/app.js"/>

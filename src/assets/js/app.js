@@ -25,6 +25,8 @@
  *     13.  LTR & RTL Mode       *
  ================================*/
 
+
+ 
 window.addEventListener("load", fn, false);
 const chk = document.getElementById("chk");
 if (

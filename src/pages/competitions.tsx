@@ -1,7 +1,6 @@
-import { toggleMenu } from '../assets/js/app';
-import { topFunction } from '../assets/js/app';
 
-export function competitions() {
+
+export default function competitions() {
     return (
         <>
   <meta charSet="UTF-8" />
