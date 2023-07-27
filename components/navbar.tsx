@@ -1,5 +1,20 @@
 // TODO
+'use client'
 import { links } from './data';
+import "../src/styles/scss/navbar.scss"
+
+const toggleMenu = () => {
+  if(process.browser){ 
+    const menuToggle = document.getElementById("isToggle");
+    menuToggle?.classList.toggle("open");
+      var isOpen = document.getElementById("navigation");
+      if (isOpen?.style.display === "block") {
+          isOpen.style.display = "none";
+      } else if (isOpen?.style.display === "none"){
+          isOpen.style.display = "block";
+      }
+  }
+}
 
 const Navbar = () => {
   return (
@@ -21,7 +36,7 @@ const Navbar = () => {
       </a>
       <div className="menu-extras">
         <div className="menu-item">
-          <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+          <a className="navbar-toggle" id="isToggle" onClick={toggleMenu}>
             <div className="lines">
               <span />
               <span />

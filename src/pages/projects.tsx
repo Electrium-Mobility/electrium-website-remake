@@ -231,7 +231,7 @@ export default function projects() {
         </div>
         <div className="md:col-span-12 md:mb-7">
           <p className="text-slate-400 max-w-none text-center">
-            Check out what we've been working on, and read more about our
+            Check out what we&#39;ve been working on, and read more about our
             project process and documentation.
           </p>
         </div>
@@ -377,7 +377,7 @@ export default function projects() {
                   />
                 </a>
                 <p className="mt-6 text-gray-300">
-                  Hi, we're Electrium Mobility! We're a student design team in
+                  Hi, we&#39;re Electrium Mobility! We&#39;re a student design team in
                   the Sedra Student Design Centre at the University of Waterloo.
                 </p>
                 <ul className="list-none mt-6">
