@@ -8,6 +8,7 @@ const Navbar = () => {
   return (
     <nav id="topnav" className="defaultscroll is-sticky nav-sticky">
       <div className="container">
+      <div className="flex items-center justify-between">
         <a className="logo" href="/">
           <Image
             src="/assets/logos/logo-light-mode.png"
@@ -227,6 +228,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </nav>
     // <nav>
