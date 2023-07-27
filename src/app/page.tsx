@@ -35,14 +35,7 @@ export default function Home() {
   <meta name="version" content="1.7.0" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   <link rel="shortcut icon" href="assets/logos/favicon.png" sizes="32x32" />
-  <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
-  <link
-    href="assets/libs/@iconscout/unicons/css/line.css"
-    type="text/css"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="assets/css/icons.css" />
-  <link rel="stylesheet" href="assets/css/tailwind.css" />
+
 </>
 
   <Navbar />
@@ -95,7 +88,7 @@ export default function Home() {
         <div className="lg:col-span-7 mt-8 md:mt-0">
           <div className="ltr:lg:ml-10 rtl:lg:mr-10">
             <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-              We're Electrium Mobility,
+              We&#39;re Electrium Mobility,
             </h3>
             <p className="text-slate-400 max-w-xl">
               Welcome to Electrium Mobility, a student-led design team located
@@ -189,7 +182,7 @@ export default function Home() {
         </div>
         <div className="md:col-span-6">
           <p className="text-slate-400 max-w-xl">
-            Check out what we've been working on, and read more about our
+            Check out what we&#39;ve been working on, and read more about our
             project process and documentation.
           </p>
         </div>
@@ -279,7 +272,7 @@ export default function Home() {
         </h3>
         <p className="max-w-xl mx-auto">
           {" "}
-          Be a part of the green transportation revolution! We're looking for
+          Be a part of the green transportation revolution! We&#39;re looking for
           students passionate about sustainable mobility. Join our team to learn
           more about our projects and collaborate on cutting-edge electric
           vehicle projects.{" "}
@@ -290,7 +283,7 @@ export default function Home() {
           <h5 className="text-2xl font-semibold mb-4">Join Our Team</h5>
           <p className="text-slate-400 mb-4">
             Join us and unleash your creativity and passion for sustainable
-            transportation. As a member, you'll have the opportunity to gain
+            transportation. As a member, you&#39;ll have the opportunity to gain
             hands-on experience in design and engineering.
           </p>
           <a
@@ -334,7 +327,7 @@ export default function Home() {
                   />
                 </a>
                 <p className="mt-6 text-gray-300">
-                  Hi, we're Electrium Mobility! We're a student design team in
+                  Hi, we&#39;re Electrium Mobility! We&#39;re a student design team in
                   the Sedra Student Design Centre at the University of Waterloo.
                 </p>
                 <ul className="list-none mt-6">

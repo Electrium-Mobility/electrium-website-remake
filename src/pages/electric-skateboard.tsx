@@ -251,13 +251,13 @@ export default function electricskateboard (){
               Project Description:
             </h4>
             <p className="text-slate-400">
-              Here's how it works: a simple push of the intuitive handheld
+              Here&#39;s how it works: a simple push of the intuitive handheld
               remote control unleashes the power beneath your feet. With
-              customizable riding modes and adjustable speed settings, you're in
+              customizable riding modes and adjustable speed settings, you&#39;re in
               full command of your ride, no matter your skill level.
             </p>
             <p className="text-slate-400 mt-2">
-              When it's time to step off the board, the compact and portable
+              When it&#39;s time to step off the board, the compact and portable
               design of the VoltSkate electric skateboard makes it easy to carry
               and store. Take it with you on public transportation or simply
               tuck it away under your desk - the possibilities are endless.
@@ -288,7 +288,7 @@ export default function electricskateboard (){
                   />
                 </a>
                 <p className="mt-6 text-gray-300">
-                  Hi, we're Electrium Mobility! We're a student design team in
+                  Hi, we&#39;re Electrium Mobility! We&#39;re a student design team in
                   the Sedra Student Design Centre at the University of Waterloo.
                 </p>
                 <ul className="list-none mt-6">

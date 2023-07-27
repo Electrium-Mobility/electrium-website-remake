@@ -140,7 +140,7 @@ export default function Contact() {
         <p className="mt-4 text-slate-400 max-w-xl mx-auto">
           Have any questions? <br />
           Interested in learning more about Electrium? <br />
-          Let's chat!
+          Let&#39;s chat!
         </p>
       </div>
       {/*end grid*/}
@@ -343,7 +343,7 @@ export default function Contact() {
                   />
                 </a>
                 <p className="mt-6 text-gray-300">
-                  Hi, we're Electrium Mobility! We're a student design team in
+                  Hi, we&#39;re Electrium Mobility! We&#39;re a student design team in
                   the Sedra Student Design Centre at the University of Waterloo.
                 </p>
                 <ul className="list-none mt-6">

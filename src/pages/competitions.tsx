@@ -178,7 +178,7 @@ export default function competitions() {
                   />
                 </a>
                 <p className="mt-6 text-gray-300">
-                  Hi, we're Electrium Mobility! We're a student design team in
+                  Hi, we&#39;re Electrium Mobility! We&#39;re a student design team in
                   the Sedra Student Design Centre at the University of Waterloo.
                 </p>
                 <ul className="list-none mt-6">

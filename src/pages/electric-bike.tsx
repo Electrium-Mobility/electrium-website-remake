@@ -334,11 +334,11 @@ export default function electricbike() {
               100 kg. It has a battery life of 5 hours but can function as a
               regular bike. No hill is too steep, no destination is too far. Our
               state-of-the-art battery and motor deliver incredible range and
-              power, ensuring you'll reach your destination effortlessly, no
+              power, ensuring you&#39;ll reach your destination effortlessly, no
               matter the terrain.
             </p>
             <p className="text-slate-400 mt-2">
-              And it's not just for commuters. With its ergonomic design and
+              And it&#39;s not just for commuters. With its ergonomic design and
               adjustable seating, the Zephyr electric bike is perfect for riders
               of all ages and fitness levels. Imagine creating unforgettable
               memories as you explore new trails, embark on family adventures,
@@ -370,7 +370,7 @@ export default function electricbike() {
                   />
                 </a>
                 <p className="mt-6 text-gray-300">
-                  Hi, we're Electrium Mobility! We're a student design team in
+                  Hi, we&#39;re Electrium Mobility! We&#39;re a student design team in
                   the Sedra Student Design Centre at the University of Waterloo.
                 </p>
                 <ul className="list-none mt-6">
