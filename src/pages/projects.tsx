@@ -1,6 +1,6 @@
 import Script from "next/script"
 import "../styles/scss/tailwind-css.scss"
-
+import Navbar from '../../components/navbar'
 export default function projects() {
     return (
         <>
@@ -45,6 +45,7 @@ export default function projects() {
   </div>
     </div> */}
   {/* Loader End */}
+  <Navbar />
   {/* Start Navbar */}
   <nav id="topnav" className="defaultscroll is-sticky">
     <div className="container">
@@ -67,7 +68,7 @@ export default function projects() {
       <div className="menu-extras">
         <div className="menu-item">
           {/* Mobile menu toggle*/}
-          <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+          <a className="navbar-toggle" id="isToggle" onClick="toggleMenu()">
             <div className="lines">
               <span />
               <span />
@@ -569,7 +570,7 @@ export default function projects() {
   {/* Back to top */}
   <a
     href="#"
-    onclick="topFunction()"
+    onClick="topFunction()"
     id="back-to-top"
     className="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 ltr:right-5 rtl:left-5 h-9 w-9 text-center bg-green-600 text-white leading-9"
   >
