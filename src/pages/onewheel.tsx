@@ -46,6 +46,7 @@ export default function onewheel() {
       </div>
   </div> */}
   {/* Loader End */}
+  <Navbar />
   {/* Start Navbar */}
   <nav id="topnav" className="defaultscroll is-sticky">
     <div className="container">

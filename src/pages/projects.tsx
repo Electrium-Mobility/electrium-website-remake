@@ -1,6 +1,6 @@
 import Script from "next/script"
 import "../styles/scss/tailwind-css.scss"
-
+import Navbar from '../../components/navbar'
 export default function projects() {
     return (
         <>
@@ -45,6 +45,7 @@ export default function projects() {
   </div>
     </div> */}
   {/* Loader End */}
+  <Navbar />
   {/* Start Navbar */}
   <nav id="topnav" className="defaultscroll is-sticky">
     <div className="container">
