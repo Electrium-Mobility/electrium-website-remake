@@ -1,6 +1,7 @@
 'use client';
 import { links } from './data';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
   const toggleMenu = () => {};
@@ -185,9 +186,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="team" className="">
-                Team
-              </a>
+              <Link href="team">Team</Link>
             </li>
             <li>
               <a href="sponsors" className="">
